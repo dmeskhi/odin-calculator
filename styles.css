@@ -86,3 +86,10 @@ body {
     font-size: 30px;
 }
 
+.title-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}

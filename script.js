@@ -1,3 +1,4 @@
+//Global Variables
 let operator = "";
 let previousValue = "";
 let currentValue = "";
@@ -51,12 +52,13 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-
+//Reduce number intake up to 5
 function handleNumber(num) {
     if (currentValue.length <= 5) {
         currentValue += num;
     }
 }
+
 
 function handleOperator(ope) {
     operator = ope;
