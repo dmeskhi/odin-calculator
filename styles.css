@@ -6,3 +6,83 @@ body {
     width: 100vw;
     height: 100vh;
 }
+
+.btn {
+    width: 75px;
+    height: 75px;
+    margin: 15px;
+    font-size: 40px;
+}
+
+.number {
+    border: 1px solid #f875aa;
+    border-radius: 10px;
+}
+
+.number:hover {
+    background-color: #f875aa;
+}
+
+.operator {
+    border: 1px solid #aedefc;
+    border-radius: 10px;
+}
+
+.operator:hover {
+    background-color: #aedefc;
+}
+
+.decimal {
+    border: 1px solid #ffaf45;
+    border-radius: 10px;
+}
+
+.decimal:hover {
+    background-color: #ffaf45;
+}
+
+.equal {
+    border: 1px solid #e26ee5;
+    border-radius: 10px;
+}
+
+.equal:hover {
+    background-color: #e26ee5;
+}
+
+#clear-btn {
+    border: 1px solid #7ed7c1;
+    border-radius: 10px;
+}
+
+#clear-btn:hover {
+    background-color: #7ed7c1;
+    
+}
+
+.first-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#screen {
+    width: 300px;
+    height: 75px;
+    border: 1px solid #647d87;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.previous {
+    font-size: 20px;
+}
+
+.current {
+    font-size: 30px;
+}
+
